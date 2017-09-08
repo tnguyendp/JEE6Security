@@ -1,0 +1,13 @@
+<sun-web-app error-url="">
+    <context-root>/programmatic-login</context-root>
+    <security-role-mapping>
+        <role-name>javaee6user</role-name>
+        <group-name>javaee6user</group-name>
+    </security-role-mapping>
+    <class-loader delegate="true"/>
+    <jsp-config>
+        <property name="keepgenerated" value="true">
+            <description>Keep a copy of the generated servlet class' java code.</description>
+        </property>
+    </jsp-config>
+</sun-web-app>
